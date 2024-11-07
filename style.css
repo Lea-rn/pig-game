@@ -116,6 +116,7 @@ main {
     background-color: rgba(255, 255, 255, 0.772);
     top: 360px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .hold{
@@ -125,4 +126,10 @@ main {
     background-color: rgba(255, 255, 255, 0.772);
     top: 450px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
 }
