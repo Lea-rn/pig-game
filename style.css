@@ -16,15 +16,16 @@ main {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.253);
     position: relative;
+    box-shadow: 1px 1px 20px 1px;
 }
 
-.player-1{
+.player-0{
 
     width: 50%;
     text-align: center;
 }
 
-.player-2{
+.player-1{
 
     width: 50%;
     text-align: center;
@@ -107,6 +108,7 @@ main {
     padding: 12px 30px;
     background-color: rgba(255, 255, 255, 0.772);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .roll{
@@ -132,4 +134,8 @@ main {
 
 .hidden {
     display: none;
+}
+
+.winner{
+    background-color: black;
 }
